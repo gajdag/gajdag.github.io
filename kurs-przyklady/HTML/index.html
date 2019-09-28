@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Znaczniki liniowe oi blokowe -->
+    <a href="">To jest link</a>
+    <a href="">To jest drugi link</a>
+    <a href="">To jest trzeci link</a>
+
+    <p>Lorem</p>
+    <p>Lorem</p>
+    <p>Lorem</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!-- Odnośniki -->
+    <a href="https://google.com">Link do google</a>
+    <a href="https://akademia108.pl/kontakt">Kontakt do Akademii</a>
+    <a href="podstrony/contact.html">Link wewnętrzny</a>
+    <a href="about">Sekcja o mnie</a>
+    <a href="https://google.com" target="blank">Link otwierany w nowej karcie</a>
+    <a href="mailto:krakow@akademia108.pl">NAPISZ DO MNIE otwiera okno z mailem</a>
+
+    <!-- Tabele -->
+    <table>
+        <thead> 
+            <tr>
+                <th>Produkt</th>
+                <th>Ilość</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+            <td>Kawa</td>
+            <td>2</td>
+            <tr></tr>
+            <td>Herbata</td>
+            <td>6</td>
+        </tbody>
+        <tfoot>
+        <tr>
+                <td>Razem</td>
+                <td>8</td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <!-- Formularze -->
+    <form action="">
+        <input type="text" name="first-name" placeholder="Imię"><br>
+        <label for="e-mail">Email</label>
+        <input type="email" name="e-mail" id="e-mail" required><br>
+        <input type="number" min="0" max="150" name="age" disabled><br>
+        <input type="checkbox" name="agreement"><br>
+        <label><input type="radio" name="gender"> Kobieta </label>
+        <label><input type="radio" name="gender"> Mężczyzna</label>
+        <label><input type="radio" name="gender"> Inne </label><br>
+        <select name="cities">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa" selected>Warszawa</option>
+            <option value="Gdansk">Gdańsk</option>
+        </select>
+        <textarea name="message" maxlength="50"></textarea><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+
+</body>
+</html>
